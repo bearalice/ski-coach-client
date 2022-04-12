@@ -25,7 +25,8 @@ function App() {
   const { isAuthenticated, isLoading, user } = useAuth0();
   const [coaches, setCoaches] = useState([]);
 
-  const baseURL = "http://localhost:5000";
+  //const baseURL = "http://localhost:5000";
+  const baseURL = "https://ski-coach2.herokuapp.com";
 
   useEffect(() => {
     async function fetchCoaches() {

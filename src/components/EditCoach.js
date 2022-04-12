@@ -10,7 +10,7 @@ import { Button, Card } from 'react-bootstrap';
 
 export default function EditCoach() {
     //const baseURL = "http://localhost:5000";
-    const baseURL = '';
+    const baseURL = "https://ski-coach2.herokuapp.com";
     const { id } = useParams();
     const [coach, setCoach] = useState({});
 
