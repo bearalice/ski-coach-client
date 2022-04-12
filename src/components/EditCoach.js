@@ -9,7 +9,8 @@ import { Button, Card } from 'react-bootstrap';
 
 
 export default function EditCoach() {
-    const baseURL = "http://localhost:5000";
+    //const baseURL = "http://localhost:5000";
+    const baseURL = '';
     const { id } = useParams();
     const [coach, setCoach] = useState({});
 
